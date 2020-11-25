@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+<script type="text/javascript" src="javas.js"></script>
+<head>
+	<title>MTD</title>
+	<link rel="stylesheet" type="text/css" href="html.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	
+	<header>
+		<div class="top">
+		<a id="left" href="#home">Home</a>
+		<div class="search-container">
+ 		  <form action="/action_page.php">
+ 		  <input id="inpu" type="text" placeholder="Search" name="search">
+ 		  <button type="submit">Submit</button>
+   		 </form>
+  		</div>
+  		<a id="login" href="">Login</a>
+  		<a id="signup" href="register.html">Sign up</a>
+  		<a id="settings" href="#settings">Settings</a>
+  	</header>
+  	</div>	
+	<div class="iconbar">
+ 	 <a class="active" href="#"><i class="fa fa-fire"></i></a> 
+	 <a href="#"><i class="fa fa-angle-up"></i></a> 
+ 	 <a href="#"><i class="fa fa-globe"></i></a>
+ 	 <a href="#"><i class="fa fa-ellipsis-h"></i></a>
+ 	 <a href="#"><i class="fa fa-calendar"></i></a>
+	</div>
+	<div id="app"></div>
+	<div class="Post" id="pst">
+		
+		123
+		<div id="liste"></div>
+
+
+	<script type="text/javascript">
+		let voteupbtn = document.querySelector('#voteupbtn');
+		let votedownbtn = document.querySelector('#votedownbtn');
+		let input1=document.querySelector('#input1');
+		let input2=document.querySelector('#input2');
+		voteupbtn.addEventListener('click', ()=>{
+			input1.value=parseInt(input1.value)+1;
+			input1.style.color="#6c757d"
+		})
+		votedownbtn.addEventListener('click', ()=>{
+			input2.value=parseInt(input2.value) +1;
+			input2.style.color="#6c757d"
+		})
+</script>
+<script src="js.js"></script>
+</body>
+</html>
